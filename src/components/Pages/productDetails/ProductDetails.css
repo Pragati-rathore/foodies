@@ -1,0 +1,180 @@
+.main-box {
+    margin: 0 auto;
+    max-width: 800px;
+}
+.imgBoxCard {
+    flex: 0 0 auto;
+    margin-right: 10px;
+    overflow: hidden;
+    border-radius: 1rem;
+    filter: drop-shadow(rgba(0, 0, 0, 0.1) 0px 2px 8px);
+}
+.imgBoxCard img{
+    width: 100%;
+    height: 100%; 
+    object-fit: cover;
+    
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.offer {
+    position: absolute;
+   
+    bottom: 0;
+    left: 1rem;
+}
+
+.CardMain {
+    position: relative;
+}
+
+.offer h1 {
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 900;
+}
+
+.restroNamedtl h1 {
+    font-size: 1.2rem;
+    font-weight: 700;
+   
+}
+
+.startIcon-dtl {
+    font-size: 1.2rem;
+    color: green;
+    
+    font-weight: 700;
+}
+
+.star-box {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 0.2rem;
+}
+
+.itemH-dtl{
+    font-size: 0.8rem;
+    color: gray;
+
+}
+.main-prduct-dtl {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+ul.details-nvgn {
+    display: flex;
+    justify-content: left;
+    gap: 0.2rem;
+    align-items: center;
+    padding: 1rem 0 1rem;
+}
+p.nvgn-p {
+    font-size: 0.8rem;
+    color: gray;
+}
+p.nvgn-p:hover{
+    color: #323030;
+}
+p.nvgn-p-restro{
+    font-size: 0.8rem;
+    color: #323030;
+}
+.rateing {
+    border: 1px solid #e3e3e3;
+    border-radius: 1rem;
+    padding: 0.5rem;
+}
+.rtng-no {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    border-bottom: 1px solid #e3e3e3;
+}
+.time {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    border-top: 0.1rem dotted #ded5d5;
+    padding: 1rem 0;
+}
+h1.cupn-hd {
+    color: #5f5d5d;
+    font-weight: 600;
+}
+
+.rcmnd-main{
+    border-top: 0.5rem solid #e8e1e1;
+}
+.rcmnd-hd  {
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 1rem 0;
+}
+.card-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+    padding: 1rem;
+}
+h1.food-name {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #3d3b3b;
+}
+.card-dscrptn {
+    font-size: 0.85rem;
+    color: gray;
+    padding: 1rem 0;
+}
+
+.card-img {
+    width: 8rem;
+    border-radius: 1rem;
+}
+
+.card-img img{
+    border-radius: 1rem;
+}
+.card-hd {
+    width: 37rem;
+}
+.card-img-box {
+    position: relative;
+}
+
+.add-card {
+    position: absolute;
+    top: 5rem;
+    left: 1.5rem;
+}
+.addBtn{
+    color: green;
+    background: #ffff;
+    padding: 0.2rem 1.5rem;
+    border-radius: 0.2rem;
+    border: 1px solid #ebe4e4;
+}
+.count-btn{
+    background: #ffff;
+    color: green;
+    display: flex;
+    border-radius: 0.2rem;
+    border: 1px solid #ebe4e4;
+}
+
+.count-btn-click{
+    color: green;
+    background: #ffff;
+    padding: 0.2rem 1rem;
+   border: none;
+}

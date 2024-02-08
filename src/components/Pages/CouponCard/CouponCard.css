@@ -1,0 +1,41 @@
+.coupan {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 3rem;
+    padding: 1rem 0;
+}
+
+
+
+.coupn-hd {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.Coupn-main {
+    border: 1px solid #e6d9d9;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+
+.code p {
+    font-size: 1rem;
+}
+.offer-icon{
+    font-size: 1rem;
+}
+h1.cupn-hd {
+    color: #5f5d5d;
+    font-weight: 600;
+}
+.code p {
+    font-size: 0.8rem;
+    color: gray;
+    font-weight: 600;}
+
+ 
+    
+    

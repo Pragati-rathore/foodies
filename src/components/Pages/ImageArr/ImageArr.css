@@ -1,0 +1,18 @@
+.imgBox {
+    flex: 0 0 auto;
+    margin-right: 10px;
+    overflow: hidden;
+    border-radius: 3rem;
+}
+ 
+.imgBox img{
+    width: 100%;
+    height: 100%; 
+    object-fit: cover;
+}
+
+.img-Arr {
+    display: flex;
+    overflow-x: auto;
+    
+}

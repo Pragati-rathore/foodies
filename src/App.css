@@ -1,0 +1,119 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  /* background-color: #ffffff; */
+ 
+  /* font-weight: normal;
+  line-height: 1.4;
+  font-family: "Lato"; */
+}
+h1,
+h2,
+h3,
+h4,
+h6,
+h5 {
+  margin: 0px ;
+  padding: 0px;
+}
+
+/* img {
+  max-width: 100%;
+} */
+
+ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+a {
+  text-decoration: none;
+}
+.Main-container {
+  width: 75rem;
+  justify-content: center;
+  margin: 0 auto;
+  padding-top: 6rem;
+}
+input,
+textarea {
+   width: 100%;
+   border: none;
+   outline: 0;
+  /*border: 1px solid #ffffff;
+  background: #ffffff;
+  border-radius: 5px;
+  padding: 12px 12px;
+  font-size: 14px;
+  resize: none; */
+}
+button {
+  display: block;
+  width: 100%;
+  cursor: pointer;
+ 
+  background-color: #ededed;
+  
+}
+
+header {
+  background: blue;
+  height: 70px;
+  position: fixed;
+  right: 0;
+  left: 0;
+}
+.Main-container {
+  width: 75rem;
+  justify-content: center;
+  margin: 0 auto;
+  padding-top: 6rem;
+}

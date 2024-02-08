@@ -1,0 +1,77 @@
+
+  .login-container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+    display: flex;
+    justify-content:end;
+
+    z-index: 2000;
+  }
+  .login-main{
+    width: 35%;
+    background-color: white;
+    padding: 1rem 7rem 1rem 3rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 3000;
+  }
+
+  .login-hd h1{
+    margin-top: 25px;
+    font-size: 30px;
+    font-weight: 500;
+
+  }
+  
+
+.crct-accnt {
+    margin-top: 10px;
+    position: relative;
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+}
+
+.crct-accnt a{
+  font-weight: 500;
+    cursor: pointer;
+    color: #fc8019;
+}
+.logim-img {
+  width: 6rem;
+  height: 5rem;
+  position: absolute;
+  right: 0;
+  top: 48px;
+}
+
+.hd-box-login {
+  position: relative;
+}
+.login-form {
+  padding: 2rem 0rem;
+}
+.login-policy p{
+  font-size: 12px;
+  color: #686b78;
+  margin-top: 6px;
+  font-weight: 500;
+}
+
+.login-policy a{
+  color: #282c3f;
+}
+
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* input[type='number'] {
+  -moz-appearance: textfield;
+} */
+
+.error {color: red;padding: 1rem 0rem;}

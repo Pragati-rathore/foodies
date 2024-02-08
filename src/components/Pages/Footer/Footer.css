@@ -1,0 +1,78 @@
+.Footer-main {
+    padding-top: 6rem;
+}
+
+.footer-box-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7rem;
+    background-color: rgb(240, 240, 245);
+    padding: 1rem;
+}
+.box-2 {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.downld-btn-box {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background-color: black;
+    color: #fff;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+
+.box-1 h1 {
+    color: #313131;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: initial;
+}
+
+.dwnload-icon {
+    font-size: 2rem;
+}
+.app {
+    display: flex;
+    flex-direction: column;
+    gap: 0rem;
+    line-height: 1;
+    justify-content: left;
+}
+.app h1 {
+    font-size: 1.5rem;
+}
+.footer-box-2 {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    gap: 6rem;
+    background-color:#000;
+    color:#fff;
+    padding-top: 3rem;
+}
+.ftr-flex-hd {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    gap: 1rem;
+}
+
+.ftr-flex-hd h1 {
+    font-weight: 700;
+}
+.list-item {
+    color: gray;
+    font-weight: 500;
+}
+h1.list-hd {font-size: larger;font-weight: 600;}
+ul.lists {
+    line-height: 2rem;
+}
+.gap{
+    padding-top: 1rem;
+}

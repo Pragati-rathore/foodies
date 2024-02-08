@@ -1,0 +1,65 @@
+.popup-form {
+  position: fixed;
+  display: flex;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+}
+.popup-main-box {
+  background: #fff;
+  width: 30%;
+  height: 100%;
+  padding: 7rem 1rem 3rem 7rem;
+  overflow: scroll;
+}
+.from-hd {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 1rem;
+  font-weight: 700;
+}
+.forn-input {
+  padding: 1rem;
+  border: 1px solid #e9e4e4;
+}
+.popup-hd {
+  background: #fff;
+  width: 30%;
+  padding: 2rem 1rem 1rem 7rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  box-shadow: 0 15px 40px -20px rgba(27, 33, 61, 0.15);
+}
+ul.btn-typ-adrs {
+  display: flex;
+  align-items: center;
+}
+
+ul.btn-typ-adrs li {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 1rem 1.52rem;
+  border: 1px solid #e9e4e4;
+  color: #a09797;
+}
+.btn-list:hover{
+    background-color: #000;
+    color: #fff;
+}
+button.sumt-btn {
+  background: #ff8100;
+  padding: 1rem;
+  color: #fff;
+  font-weight: 600;
+  font-size: .9rem;
+  margin: 1rem 0rem;
+}
+.bg-gry {
+  width: 70%;
+}

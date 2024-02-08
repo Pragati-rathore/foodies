@@ -1,0 +1,58 @@
+.imgBoxCard {
+    flex: 0 0 auto;
+    margin-right: 10px;
+    overflow: hidden;
+    border-radius: 1rem;
+    filter: drop-shadow(rgba(0, 0, 0, 0.1) 0px 2px 8px);
+}
+.imgBoxCard img{
+    width: 100%;
+    height: 100%; 
+    object-fit: cover;
+    
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.offer {
+    position: absolute;
+   
+    bottom: 0;
+    left: 1rem;
+}
+
+.CardMain {
+    position: relative;
+}
+
+.offer h1 {
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 900;
+}
+
+.restroName h1 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 0.3rem;
+}
+
+.startIcon {
+    font-size: 1.2rem;
+    color: green;
+}
+
+.star-box {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 0.2rem;
+}
+
+h1.itemH {
+    font-size: 1rem;
+    font-weight: 600;
+}
