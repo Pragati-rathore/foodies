@@ -18,6 +18,7 @@ import restntImg4 from "../../assets/resturent-img-4.avif";
 import restntImg5 from "../../assets/resturent-img-5.avif";
 import CardImgPizza from "../../assets/coffee.jpg";
 import CardImgCoffee from "../../assets/coffee.jpg";
+//import CardData from "../Data/cardData.json"
 
 export const AuthContext = React.createContext();
 
@@ -633,7 +634,8 @@ const AuthDataProvider = ({ children }) => {
         checker,
         objOffer,
         objFoodVarity,
-        CardData,
+        // CardData,
+        CardData
       }}
     >
       {children}

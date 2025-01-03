@@ -14,12 +14,12 @@ import AddressTyp from "./AddressCard";
 // // import baseURL from "../Api/Api"
 // import Api from "../Api/Api";
 
-function CartPage({ item, incrementQuantity, decrementQuantity }) {
-  const [showTypAdd , setShowTypAdd]= useState(false)
-  console.log(item)
-  if (!item) {
-    return null; // You can return null or a loading message or handle it as needed
-  }
+function CartPage({item}) {
+  const [showTypAdd, setShowTypAdd] = useState(false);
+  console.log(item);
+  // if (!item) {
+  //   return null; // You can return null or a loading message or handle it as needed
+  // }
   // const data = createQuery()
   // console.log(data)
   // const fetch =async()=>{
@@ -43,7 +43,7 @@ function CartPage({ item, incrementQuantity, decrementQuantity }) {
 
   if ("geolocation" in navigator) {
     navigator.geolocation.getCurrentPosition((postion) => {
-      console.log(postion);
+      //console.log(postion);
       //     const latitude=postion.coord.latitude
 
       //     const longitude=postion.coord.longitude
@@ -51,24 +51,24 @@ function CartPage({ item, incrementQuantity, decrementQuantity }) {
       // console.log(latitude,longitude)
     });
   } else {
-    console.log("er");
+    //console.log("er");
   }
   let arr = ["r", "r", "r", "p"];
 
   for (let i = 0; i <= arr.length - 1; i++) {
-    console.log(arr[i]);
+    //console.log(arr[i]);
   }
-
-
 
   return (
     <>
-      <NavBar searchbarshown={false}/>
+      <NavBar searchbarshown={false} />
       <div className="card-pg">
         <div className="Main-container-cardpg">
           <div className="Card-main">
             <div className="Card-box-1">
-              <div className="loc-icon-side"><GoLocation /></div>
+              <div className="loc-icon-side">
+                <GoLocation />
+              </div>
               <div>
                 <div className="Select-addrss">
                   <div className="hd-add">
@@ -76,7 +76,7 @@ function CartPage({ item, incrementQuantity, decrementQuantity }) {
                     <p>You have a saved address in this location</p>
                   </div>
                   <div className="address-typ">
-                    {showTypAdd? <AddressTyp/>:""}
+                    {showTypAdd ? <AddressTyp /> : ""}
                   </div>
                   <div className="address-card">
                     <AddressCard />
@@ -84,7 +84,7 @@ function CartPage({ item, incrementQuantity, decrementQuantity }) {
                 </div>
                 <div className="pymt">
                   <div className="pymt-icon">
-                  <GiWallet />
+                    <GiWallet />
                   </div>
                   <h1>Payment</h1>
                 </div>
@@ -110,7 +110,7 @@ function CartPage({ item, incrementQuantity, decrementQuantity }) {
                       </div>
                       <div className="item-dscrpn">
                         {/* <h1>Paneer Tikkat Rice Bowl</h1> */}
-                        <h1>{item.foodItem}</h1>
+                        <h1></h1>
                         <p>Customise</p>
                       </div>
                     </div>
@@ -119,14 +119,14 @@ function CartPage({ item, incrementQuantity, decrementQuantity }) {
                       <p>2</p>
                       <button>+</button>
                     </div> */}
-                     <div className="cart-item-quantity">
-        <button onClick={() => decrementQuantity(item)}>-</button>
-        <span>{item.quantity}</span>
-        <button onClick={() => incrementQuantity(item)}>+</button>
-      </div>
+                    {/* <div className="cart-item-quantity">
+                      <button onClick={() => decrementQuantity(item)}>-</button>
+                      <span>{item.quantity}</span>
+                      <button onClick={() => incrementQuantity(item)}>+</button>
+                    </div> */}
                     <div className="Total-amnt">
                       <p>₹299</p>
-                      <p>Price: ₹{item.price}</p>
+                      <p>Price: ₹</p>
                     </div>
                   </div>
                   <div className="suggsn-box">
@@ -204,12 +204,16 @@ function CartPage({ item, incrementQuantity, decrementQuantity }) {
                     Review your order and address details to avoid cancellations
                   </h1>
                   <p>
-                    <span style={{color:"red"}}>Note:</span> If you cancel within 60 seconds of
-                    placing your order, a 100% refund will be issued. No refund
-                    for cancellations made after 60 seconds.
+                    <span style={{ color: "red" }}>Note:</span> If you cancel
+                    within 60 seconds of placing your order, a 100% refund will
+                    be issued. No refund for cancellations made after 60
+                    seconds.
                   </p>
                   <div className="avoid-cncltn">
-                    <p style={{color:"gray"}}> Avoid cancellation as it leads to food wastage.</p>
+                    <p style={{ color: "gray" }}>
+                      {" "}
+                      Avoid cancellation as it leads to food wastage.
+                    </p>
                   </div>
                   <div className="policy">
                     <p>Read cancellation policy</p>

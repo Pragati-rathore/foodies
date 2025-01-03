@@ -45,13 +45,15 @@ function ProductDetails() {
   //   }
   // }
   const cart = useSelector((state) => state.cart);
+  console.log(cart,"cart")
   const dispatch = useDispatch();
 
 
 
   const addToCart = (item) => {
     const existingItem = cart.find((cartItem) => cartItem.id === item.id);
-
+console.log(existingItem )
+console.log(item)
     if (existingItem) {
       dispatch(incrementCartItemQuantity(item));
     } else {

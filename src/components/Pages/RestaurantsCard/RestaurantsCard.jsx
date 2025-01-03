@@ -83,7 +83,7 @@ import { Link, useParams } from "react-router-dom";
 
 function RestaurantsCard({item ,i,style}) {
  
-
+console.log(item.img)
   //console.log(item ,i,style);
   // const { imgarr, width, heading, height, card } = CardData;
 
