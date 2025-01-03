@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import Slider from "../Slider/SliderCom";
+import SliderCom from "../Slider/SliderCom";
 
 import { AuthContext } from "../../Context/AuthData";
 
@@ -13,9 +13,9 @@ function MiddleSection() {
       <div
         
       >
-        <Slider obj={objOffer} />
-        <Slider obj={objFoodVarity} />
-        <Slider obj={CardData} />
+        <SliderCom obj={objOffer} />
+        <SliderCom obj={objFoodVarity} />
+        <SliderCom obj={CardData} />
       </div>
     </>
   );
