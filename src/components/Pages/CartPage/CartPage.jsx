@@ -6,7 +6,7 @@ import pizza from "../../../assets/ord-img.jpg";
 import { GiThreeLeaves } from "react-icons/gi";
 import "../CouponCard/CouponCard.css";
 import { BiSolidOffer } from "react-icons/bi";
-import "./CartPage.css";
+import "../CartPage/CartPage.css";
 import { IoIosInformationCircleOutline } from "react-icons/io";
 import { GiWallet } from "react-icons/gi";
 import AddressTyp from "./AddressCard";

@@ -3,7 +3,7 @@ import DownloadBtn from "./DownloadBtn";
 import { FaApple } from "react-icons/fa";
 import { FaGooglePlay } from "react-icons/fa6";
 import { IoFastFoodSharp } from "react-icons/io5";
-import "./Footer.css"
+import "../Footer/Footer.css"
 import FooterList from "./FooterList";
 
 function Footer() {

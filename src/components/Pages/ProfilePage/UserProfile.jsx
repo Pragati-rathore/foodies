@@ -1,5 +1,5 @@
 import React from "react";
-import "./ProfilePage.css"
+import "../ProfilePage/ProfilePage.css"
 
 const UserProfile = () => (
     <div className="user-profile">

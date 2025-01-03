@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import SearchBar from "../SearchBar/SearchBar";
-import "./Search.css";
+import "../Search/Search.css";
 import Heading from "../Heading/Heading";
 import Confetti from "react-confetti";
 import 'react-toastify/dist/ReactToastify.css';

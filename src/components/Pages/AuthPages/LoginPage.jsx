@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./LoginPage.css";
+import "../AuthPages/LoginPage.css";
 import { RxCross1 } from "react-icons/rx";
 import LoginImg from "../../../assets/login.avif";
 import SignUpPage from "./SignPage";

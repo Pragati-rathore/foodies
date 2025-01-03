@@ -1,5 +1,5 @@
 import React from "react";
-import "./ImageArr.css"
+import "../ImageArr/ImageArr.css"
 
 function ImageArr ({item ,id,style}){
     return(

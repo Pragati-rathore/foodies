@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import NavBar from "../NavBar/NavBar";
-import "./HomePage.css";
+import "../HomePage/HomePage.css";
 import OnlineDelivery from "../OnlineDelivery/OnlineDelivery";
 import { useDispatch, useSelector } from "react-redux";
 import { setScrollValue } from "../../../Store Folder/Slice Folder/NavBarSlice";

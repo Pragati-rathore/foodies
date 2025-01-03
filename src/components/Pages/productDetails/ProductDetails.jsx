@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link, useLocation, useParams } from "react-router-dom";
-import "./ProductDetails.css";
+import "../productDetails/ProductDetails.css";
 import { IoStarSharp } from "react-icons/io5";
 import { BsClockFill } from "react-icons/bs";
 import CouponCard from "../CouponCard/CouponCard";

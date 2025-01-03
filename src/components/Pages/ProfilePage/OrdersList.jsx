@@ -1,5 +1,5 @@
 import React from "react";
-import "./ProfilePage.css"
+import "../ProfilePage/ProfilePage.css"
 import OrderCard from "./OrderCard";
 
 const OrdersList = ({orderData}) => (

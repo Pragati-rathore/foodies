@@ -1,5 +1,5 @@
 import React, {  useState } from "react";
-import "./slider.css";
+import "../Slider/slider.css";
 import { FaArrowAltCircleLeft } from "react-icons/fa";
 import { FaArrowAltCircleRight } from "react-icons/fa";
 import RestaurantsCard from "../RestaurantsCard/RestaurantsCard";

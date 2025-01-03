@@ -1,6 +1,6 @@
 import React from "react";
 import { CiSearch } from "react-icons/ci";
-import "./SearchBar.css"
+import "../SearchBar/SearchBar.css"
 
 function SearchBar({bgColor }) {
   return (

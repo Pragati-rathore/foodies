@@ -1,5 +1,5 @@
 import React from "react";
-import "./Heading.css";
+import "../Heading/Heading.css";
 
 function Heading({ hding }) {
   //console.log(hding)

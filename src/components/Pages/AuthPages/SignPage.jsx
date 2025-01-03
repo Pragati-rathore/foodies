@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import "./LoginPage.css";
+import "../AuthPages/LoginPage.css";
 import { login } from "../../../Store Folder/Slice Folder/UserloginSlice";
 import { useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";

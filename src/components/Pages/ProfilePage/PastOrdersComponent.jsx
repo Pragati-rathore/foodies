@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import UserProfile from "./UserProfile";
 import OrdersList from "./OrdersList";
-import "./ProfilePage.css";
+import "../ProfilePage/ProfilePage.css";
 import NavBar from "../NavBar/NavBar";
 import Sidebar from "../SideBar/SideBarcom";
 import PizzaImg from "../../../assets/resturent-img-4.avif"

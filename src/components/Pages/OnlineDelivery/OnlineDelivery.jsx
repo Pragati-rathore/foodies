@@ -1,5 +1,5 @@
 import React, { useContext, useState } from "react";
-import "./onlineDelivery.css";
+import "../OnlineDelivery/onlineDelivery.css";
 import Heading from "../Heading/Heading";
 import { AuthContext } from "../../Context/AuthData";
 import { useCallback } from "react";

@@ -76,7 +76,7 @@
 
 
 import React, { useContext, useState } from "react";
-import "./restaurants.css";
+import "../RestaurantsCard/restaurants.css";
 import { MdStars } from "react-icons/md";
 import { AuthContext } from "../../Context/AuthData";
 import { Link, useParams } from "react-router-dom";

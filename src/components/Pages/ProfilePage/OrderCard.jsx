@@ -1,6 +1,6 @@
 import React from "react";
 import { IoIosCheckmarkCircle } from "react-icons/io";
-import "./ProfilePage.css";
+import "../ProfilePage/ProfilePage.css";
 
 const OrderCard = ({ order }) => (
   <div className="order-card">

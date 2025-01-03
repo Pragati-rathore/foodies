@@ -1,6 +1,6 @@
 import React, { useRef, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import "./Address.css";
+import "../Adress/Address.css";
 import { RxCross1 } from "react-icons/rx";
 import { IoHomeOutline } from "react-icons/io5";
 import { MdOutlineWorkOutline } from "react-icons/md";
