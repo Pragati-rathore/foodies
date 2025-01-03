@@ -7,7 +7,7 @@ import RestaurantsCard from "../RestaurantsCard/RestaurantsCard";
 import Heading from "../Heading/Heading";
 import ImageArr from "../ImageArr/ImageArr";
 
-function Slider({ obj }) {
+function SliderCom({ obj }) {
  const [slideImg, setSlideImg] = useState(0);
   const nextSlide = (e) => {
     e.preventDefault();
@@ -107,4 +107,4 @@ function Slider({ obj }) {
     </>
   );
 }
-export default Slider;
+export default SliderCom;

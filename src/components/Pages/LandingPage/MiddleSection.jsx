@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import Slider from "../Slider/slider";
+import Slider from "../Slider/SliderCom";
 
 import { AuthContext } from "../../Context/AuthData";
 
