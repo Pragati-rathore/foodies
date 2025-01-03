@@ -1,6 +1,6 @@
 import React from "react";
 import { BiSolidOffer } from "react-icons/bi";
-import "../AuthPages/CouponCard.css";
+
 import "../CouponCard/CouponCard.css"
 
 function CouponCard({ coponDetails }) {
