@@ -1,5 +1,5 @@
 import React from "react";
-import "../NavBar/navbar.css"
+import "./navbar.css"
 
 function FilterNavBar() {
     const navBarItems = [

@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState } from "react";
 import { AuthContext } from "../../Context/AuthData";
 import "../../../App.css";
-import "../NavBar/navbar.css";
+import "./navbar.css";
 
 import FilterNavBar from "./FilterNavBar";
 import SearchBar from "../SearchBar/SearchBar";

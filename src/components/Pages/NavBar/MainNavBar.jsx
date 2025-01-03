@@ -1,5 +1,5 @@
 import NavBar from "./NavBar";
-import "../NavBar/navBar.css";
+import "./navBar.css";
 import { IoFastFoodSharp } from "react-icons/io5";
 import { FiSearch } from "react-icons/fi";
 import { BiSolidOffer } from "react-icons/bi";
